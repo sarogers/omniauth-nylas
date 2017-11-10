@@ -1,4 +1,4 @@
-require 'omniauth-oauth2'
+require "omniauth-oauth2"
 
 module OmniAuth
   module Strategies
@@ -6,16 +6,16 @@ module OmniAuth
       option :name, "nylas"
 
       option :client_options, {
-        :site          => 'https://api.nylas.com',
-        :authorize_url => '/oauth/authorize',
-        :token_url     => '/oauth/token'
+        :site          => "https://api.nylas.com",
+        :authorize_url => "/oauth/authorize",
+        :token_url     => "/oauth/token"
       }
 
       uid { access_token.params["account_id"] }
 
       info do
         {
-          'email' => access_token.params['email_address']
+          "email" => access_token.params["email_address"]
         }
       end
     end
