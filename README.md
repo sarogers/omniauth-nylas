@@ -1,5 +1,7 @@
 # Omniauth::Nylas
 
+[![Build Status](https://travis-ci.org/kwbock/omniauth-nylas.svg?branch=master)][travis]
+
 [OmniAuth](https://github.com/intridea/omniauth) Strategy for [nylas.com](nylas.com).
 
 ## Installation
