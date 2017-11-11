@@ -1,6 +1,10 @@
 # Omniauth::Nylas
 
-![Build Status](https://travis-ci.org/kwbock/omniauth-nylas.svg?branch=master)
+[![Gem Version](http://img.shields.io/gem/v/omniauth-nylas.svg)][gem]
+[![Build Status](http://img.shields.io/travis/kwbock/omniauth-nylas.svg)][travis]
+
+[gem]: https://rubygems.org/gems/omniauth-nylas
+[travis]: http://travis-ci.org/kwbock/omniauth-nylas
 
 [OmniAuth](https://github.com/intridea/omniauth) Strategy for [nylas.com](nylas.com).
 
