@@ -16,7 +16,8 @@ module OmniAuth
       info do
         {
           "account_id" => access_token.params["account_id"],
-          "email"      => access_token.params["email_address"]
+          "email"      => access_token.params["email_address"],
+          "pfovider"   => access_token.params["provider"]
         }
       end
     end
